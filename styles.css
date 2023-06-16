@@ -1,0 +1,25 @@
+.btn-white:hover{
+    color: #e2354f;
+    background: #999;
+}
+
+header{
+    background: #e2354f;
+    padding: 45px 0;
+    color: #fff;
+}
+
+section{
+    padding: 45px 0;
+}
+
+.container{
+    width: 620px;
+    margin: 0 auto;
+    border: 2px solid magenta;
+}
+
+.section-two{
+    background: #e2354f;
+    color: #fff;
+}
