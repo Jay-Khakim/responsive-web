@@ -84,12 +84,26 @@ section{
     background: #2e354f;
     color: #fff;
 } */
+
+/* Start of ex 2 */
 body{
         font-size: 1.125rem;
         color: #707070;
         margin: 0;
 }
 
+
+/* @media (min-width: 400px) and (orientation: landscape){
+    body{
+        background: purple;
+    }
+} */
+
+@media (min-width: 450px ) and (max-width: 649px) {
+    body{
+        background: orange;
+    }
+}
 h1{
     font-size: 3rem;
     color: #212614;
@@ -116,11 +130,13 @@ img{
     margin: 0 auto;
 }
 
+
 .columns{
     display: flex;
     justify-content: space-between;
     margin: 1em 0;
 }
+
 .col-1{
     width: 20%;
 }
@@ -138,3 +154,19 @@ img{
     color: #fff;
     padding: 1em ;
 }
+
+@media(max-width: 600px){
+
+    .columns{
+        flex-direction: column;
+    }
+    .col-1,
+    .col-2,
+    .col-3{
+        width: 100%;
+    }
+}
+
+
+/* end of ex 2 */
+
