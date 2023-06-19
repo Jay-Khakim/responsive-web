@@ -1,0 +1,270 @@
+/* Start of ex 3 */
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.subtitle{
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75em;
+    margin: 0;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+header{
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+@media (max-width: 675px) {
+    .container-nav{
+        flex-direction: column;
+    }
+
+    header{
+        text-align: center;
+    }
+    
+}
+
+nav ul{
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    margin-left: 2em;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus{
+    color: #1792d2;
+}
+
+.current-page{
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover{
+    color: #707070;
+}
+
+
+@media (max-width: 675px) {
+    nav ul{
+        flex-direction: column;
+
+    }
+
+    nav li {
+        margin: .5em 0;
+    }
+}
+/* End of ex 3 */
+
+
+
+
+
+/* body{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #2e354f;
+}
+
+ul{
+    font-size: 1rem;
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2, strong{
+    font-weight: 900;
+}
+
+h1{
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    font-size: 24px;
+    color: #ef5839;
+}
+
+a{
+    color: #ef5839;
+}
+
+a:hover
+a:focus{
+    color: #d4b44c;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.btn-accent{
+    background: #ef5839;
+    color: #fff;
+}
+
+.btn-accent:hover{
+    color: #2e354f;
+    background: #d4b44c;
+}
+
+.btn-white{
+    background: #fff;
+    color: #2e354f;
+}
+
+
+.btn-white:hover{
+    color: #2e354f;
+    background: #999;
+}
+
+header{
+    background: #2e354f;
+    padding: 45px 0;
+    color: #fff;
+}
+
+section{
+    padding: 45px 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto;
+    border: 2px solid magenta;
+}
+
+.section-two{
+    background: #2e354f;
+    color: #fff;
+} */
+
+/* Start of ex 2 */
+/* body{
+        font-size: 1.125rem;
+        color: #707070;
+        margin: 0;
+}
+
+
+
+
+@media (min-width: 450px ) and (max-width: 649px) {
+    body{
+        background: orange;
+    }
+}
+h1{
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h1 span{
+    color: #b7832f;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+p{
+    margin-top: 0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.col-1{
+    width: 20%;
+}
+
+.col-2{
+    width: 45%;
+}
+
+.col-3{
+    width: 70%;
+}
+
+.col-bg{
+    background: #212614;
+    color: #fff;
+    padding: 1em ;
+}
+
+@media(max-width: 600px){
+
+    .columns{
+        flex-direction: column;
+    }
+    .col-1,
+    .col-2,
+    .col-3{
+        width: 100%;
+    }
+}
+
+
+end of ex 2
+ */
